@@ -7,7 +7,8 @@ HTML (index.html):
 The HTML file contains the structure of the webpage, including a form to add tasks and a list to display tasks.
 
 html
-Copy code
+
+
 <!-- Form to add tasks -->
 <form id="taskForm">
     <!-- Task Name Input -->
@@ -101,7 +102,8 @@ JavaScript (scripts/script.js):
 JavaScript adds dynamic functionality to the ToDo List, handling form submissions, task additions, removals, and storage.
 
 javascript
-Copy code
+
+
 document.addEventListener('DOMContentLoaded', function () {
     // Selecting DOM elements
     const taskForm = document.getElementById('taskForm');
